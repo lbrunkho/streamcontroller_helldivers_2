@@ -220,11 +220,26 @@
   "actions.Resupply.labels.top": "",
   "actions.Resupply.labels.center": "",
   "actions.Resupply.labels.bottom": "",
+
+  "actions.CallInSuperDestroyer.name": "Call In Super Destroyer",
+  "actions.CallInSuperDestroyer.labels.top": "",
+  "actions.CallInSuperDestroyer.labels.center": "",
+  "actions.CallInSuperDestroyer.labels.bottom": "",
+
+  "actions.CargoContainer.name": "Cargo Container",
+  "actions.CargoContainer.labels.top": "",
+  "actions.CargoContainer.labels.center": "",
+  "actions.CargoContainer.labels.bottom": "",
   
   "actions.PortableHellbomb.name": "Portable Hellbomb",
   "actions.PortableHellbomb.labels.top": "",
   "actions.PortableHellbomb.labels.center": "",
   "actions.PortableHellbomb.labels.bottom": "",
+
+  "actions.C4Pack.name": "C4 Pack",
+  "actions.C4Pack.labels.top": "",
+  "actions.C4Pack.labels.center": "",
+  "actions.C4Pack.labels.bottom": "",
   
   "actions.Hellbomb.name": "Hellbomb",
   "actions.Hellbomb.labels.top": "",
