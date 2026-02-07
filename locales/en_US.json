@@ -90,7 +90,12 @@
   "actions.ExpendableAntiTank.labels.top": "",
   "actions.ExpendableAntiTank.labels.center": "",
   "actions.ExpendableAntiTank.labels.bottom": "",
-  
+
+  "actions.EAT411.name": "EAT-411 Leveller",
+  "actions.EAT411.labels.top": "",
+  "actions.EAT411.labels.center": "",
+  "actions.EAT411.labels.bottom": "",
+
   "actions.ExpendableNapalm.name": "Expendable Napalm",
   "actions.ExpendableNapalm.labels.top": "",
   "actions.ExpendableNapalm.labels.center": "",
@@ -150,7 +155,12 @@
   "actions.GrenadeLauncher.labels.top": "",
   "actions.GrenadeLauncher.labels.center": "",
   "actions.GrenadeLauncher.labels.bottom": "",
-  
+
+  "actions.GL28.name": "Belt-Fed Grenade Launcher",
+  "actions.GL28.labels.top": "",
+  "actions.GL28.labels.center": "",
+  "actions.GL28.labels.bottom": "",
+
   "actions.GL-52De-Escalator.name": "De-Escalator",
   "actions.GL-52De-Escalator.labels.top": "",
   "actions.GL-52De-Escalator.labels.center": "",
@@ -190,7 +200,12 @@
   "actions.Commando.labels.top": "",
   "actions.Commando.labels.center": "",
   "actions.Commando.labels.bottom": "",
-  
+
+  "actions.BastionMKXVI.name": "Bastion",
+  "actions.BastionMKXVI.labels.top": "",
+  "actions.BastionMKXVI.labels.center": "",
+  "actions.BastionMKXVI.labels.bottom": "",
+
   "actions.PatriotExosuit.name": "Patriot Exosuit",
   "actions.PatriotExosuit.labels.top": "",
   "actions.PatriotExosuit.labels.center": "",
@@ -290,6 +305,11 @@
   "actions.SuperEarthFlag.labels.top": "",
   "actions.SuperEarthFlag.labels.center": "",
   "actions.SuperEarthFlag.labels.bottom": "",
+
+  "actions.CQC20.name": "Breaching Hammer",
+  "actions.CQC20.labels.top": "",
+  "actions.CQC20.labels.center": "",
+  "actions.CQC20.labels.bottom": "",
   
   "actions.HMGEmplacement.name": "HMG Emplacement",
   "actions.HMGEmplacement.labels.top": "",
