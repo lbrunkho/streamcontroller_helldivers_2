@@ -28,7 +28,7 @@
  
   "actions.SupplyPack.name": "Supply Pack",
   "actions.SupplyPack.labels.top": "",
-  "actions.SupplyPack.label.center": "",
+  "actions.SupplyPack.labels.center": "",
   "actions.SupplyPack.labels.bottom": "",
   
   "actions.GuardDogRover.name": "\"Guard Dog\" Rover",

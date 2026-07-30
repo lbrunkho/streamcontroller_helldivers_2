@@ -8,9 +8,11 @@ Assumes the following:
 ## Contributing
 ### Adding a new Stratagem
 - Add a new key to `assets/data/stratagems.json` with the key combination.
-- Add icon with matching keyname.png to `assets/icons`.
+- Add icon with matching `keyname.svg` to `assets/icons`.
 - Add matching `actions.keyname.name` to `locales` files.
 - Add matching `actions.keyname.labels.*` to `locales` files.
+
+See `AGENTS.md` for maintainer conventions and a validation checklist.
 
 ### Versioning
 

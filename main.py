@@ -110,12 +110,15 @@ class HellDiversPlugin(PluginBase):
 
         self.executing = False
 
+        # Action id prefix must stay stable across releases; renaming breaks saved pages.
+        self.action_id_prefix = "loganb_helldivers_2"
+
         for stratagem in self.stratagems:
             try:
                 self.add_action_holder(ActionHolder(
                     plugin_base=self,
                     action_base=StratagemButton,
-                    action_id=f"net_jslay_helldivers_2::{stratagem}",
+                    action_id=f"{self.action_id_prefix}::{stratagem}",
                     action_name=self.lm.get(f"actions.{stratagem}.name")
                 ))
             except Exception as e:
@@ -124,15 +127,16 @@ class HellDiversPlugin(PluginBase):
         self.add_action_holder(ActionHolder(
             plugin_base=self,
             action_base=StratagemHeroButton,
-            action_id="net_jslay_helldivers_2::StratagemHeroToggle",
+            action_id=f"{self.action_id_prefix}::StratagemHeroToggle",
             action_name=self.lm.get("actions.StratagemHeroToggle.name")
         ))
 
+        manifest = self._load_manifest()
         self.register(
             plugin_name=self.lm.get("plugin.name"),
-            github_repo="https://github.com/jslay88/streamcontroller_helldivers_2",
-            plugin_version="1.0.0",
-            app_version="1.0.0-alpha"
+            github_repo="https://gitea.minton.work/loganb/streamcontroller_helldivers_2",
+            plugin_version=manifest.get("version", "0.0.0"),
+            app_version=manifest.get("app-version", "1.5.0-beta")
         )
 
     
@@ -151,4 +155,8 @@ class HellDiversPlugin(PluginBase):
     def init_stratagems(self):
         with open(os.path.join(self.PATH, "assets", "data", "stratagems.json")) as f:
             self.stratagems = json.load(f)
-        
+
+    def _load_manifest(self):
+        with open(os.path.join(self.PATH, "manifest.json")) as f:
+            return json.load(f)
+
