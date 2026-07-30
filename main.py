@@ -134,7 +134,7 @@ class HellDiversPlugin(PluginBase):
         manifest = self._load_manifest()
         self.register(
             plugin_name=self.lm.get("plugin.name"),
-            github_repo="https://gitea.minton.work/loganb/streamcontroller_helldivers_2",
+            github_repo="https://github.com/lbrunkho/streamcontroller_helldivers_2",
             plugin_version=manifest.get("version", "0.0.0"),
             app_version=manifest.get("app-version", "1.5.0-beta")
         )

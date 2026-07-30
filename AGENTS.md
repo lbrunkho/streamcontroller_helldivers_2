@@ -6,7 +6,8 @@ This is a **StreamController** plugin for **Helldivers 2** on Linux / Steam Deck
 
 - **Maintainer:** Logan Brunkhorst (this fork).
 - **Upstream origin:** [jslay88/streamcontroller_helldivers_2](https://github.com/jslay88/streamcontroller_helldivers_2) (early history is GitHub PRs #1–#10).
-- **Hosting:** Gitea — `https://gitea.minton.work/loganb/streamcontroller_helldivers_2.git` (not GitHub for day-to-day work).
+- **Hosting (dev):** Gitea — `https://gitea.minton.work/loganb/streamcontroller_helldivers_2.git` (day-to-day origin).
+- **Public mirror:** [github.com/lbrunkho/streamcontroller_helldivers_2](https://github.com/lbrunkho/streamcontroller_helldivers_2) — use this URL in `register(github_repo=...)` and any user-facing links.
 - **Plugin id (manifest):** `loganb_helldivers_2`
 - **Action id prefix (runtime):** `loganb_helldivers_2::…` (aligned with manifest id). Renaming this again breaks saved StreamController pages — leave it stable.
 
@@ -186,7 +187,7 @@ Change Python only when necessary. Most maintenance never needs it.
 | Concurrency | `plugin_base.executing` prevents overlapping sequences |
 | Action construction | `ActionBase.__init__(self, *args, **kwargs)` |
 | Registration | Action ids: `loganb_helldivers_2::{key}` and `…::StratagemHeroToggle` (see `action_id_prefix`) |
-| Version / repo | Read from `manifest.json`; `github_repo` points at this Gitea fork |
+| Version / repo | Read from `manifest.json`; `github_repo` points at the public GitHub mirror |
 | Logging | `loguru` as `log` |
 
 ### High-level flow
