@@ -25,6 +25,11 @@
   "actions.Maxigun.labels.top": "",
   "actions.Maxigun.labels.center": "",
   "actions.Maxigun.labels.bottom": "",
+
+  "actions.BulletStorm.name": "Bullet Storm",
+  "actions.BulletStorm.labels.top": "",
+  "actions.BulletStorm.labels.center": "",
+  "actions.BulletStorm.labels.bottom": "",
  
   "actions.SupplyPack.name": "Supply Pack",
   "actions.SupplyPack.labels.top": "",
@@ -120,6 +125,11 @@
   "actions.Sterilizer.labels.top": "",
   "actions.Sterilizer.labels.center": "",
   "actions.Sterilizer.labels.bottom": "",
+
+  "actions.Cremator.name": "Cremator",
+  "actions.Cremator.labels.top": "",
+  "actions.Cremator.labels.center": "",
+  "actions.Cremator.labels.bottom": "",
   
   "actions.Autocannon.name": "Autocannon",
   "actions.Autocannon.labels.top": "",
@@ -216,10 +226,30 @@
   "actions.EmancipatorExosuit.labels.center": "",
   "actions.EmancipatorExosuit.labels.bottom": "",
 
+  "actions.LumbererExosuit.name": "Lumberer Exosuit",
+  "actions.LumbererExosuit.labels.top": "",
+  "actions.LumbererExosuit.labels.center": "",
+  "actions.LumbererExosuit.labels.bottom": "",
+
+  "actions.BreakthroughExosuit.name": "Breakthrough Exosuit",
+  "actions.BreakthroughExosuit.labels.top": "",
+  "actions.BreakthroughExosuit.labels.center": "",
+  "actions.BreakthroughExosuit.labels.bottom": "",
+
   "actions.FastReconVehicle.name": "Fast Reconnaissance Vehicle",
   "actions.FastReconVehicle.labels.top": "",
   "actions.FastReconVehicle.labels.center": "",
   "actions.FastReconVehicle.labels.bottom": "",
+
+  "actions.SupplyFRV.name": "Supply FRV",
+  "actions.SupplyFRV.labels.top": "",
+  "actions.SupplyFRV.labels.center": "",
+  "actions.SupplyFRV.labels.bottom": "",
+
+  "actions.IncineratorFRV.name": "Incinerator FRV",
+  "actions.IncineratorFRV.labels.top": "",
+  "actions.IncineratorFRV.labels.center": "",
+  "actions.IncineratorFRV.labels.bottom": "",
   
   "actions.Reinforce.name": "Reinforce",
   "actions.Reinforce.labels.top": "",
@@ -245,6 +275,11 @@
   "actions.CargoContainer.labels.top": "",
   "actions.CargoContainer.labels.center": "",
   "actions.CargoContainer.labels.bottom": "",
+
+  "actions.DarkFluidVessel.name": "Dark Fluid Vessel",
+  "actions.DarkFluidVessel.labels.top": "",
+  "actions.DarkFluidVessel.labels.center": "",
+  "actions.DarkFluidVessel.labels.bottom": "",
   
   "actions.PortableHellbomb.name": "Portable Hellbomb",
   "actions.PortableHellbomb.labels.top": "",
@@ -275,6 +310,11 @@
   "actions.HiveBreakerDrill.labels.top": "",
   "actions.HiveBreakerDrill.labels.center": "",
   "actions.HiveBreakerDrill.labels.bottom": "",
+
+  "actions.TectonicDrill.name": "Tectonic Drill",
+  "actions.TectonicDrill.labels.top": "",
+  "actions.TectonicDrill.labels.center": "",
+  "actions.TectonicDrill.labels.bottom": "",
   
   "actions.SeismicProbe.name": "Seismic Probe",
   "actions.SeismicProbe.labels.top": "",
@@ -310,6 +350,11 @@
   "actions.CQC20.labels.top": "",
   "actions.CQC20.labels.center": "",
   "actions.CQC20.labels.bottom": "",
+
+  "actions.OneTrueFlag.name": "One True Flag",
+  "actions.OneTrueFlag.labels.top": "",
+  "actions.OneTrueFlag.labels.center": "",
+  "actions.OneTrueFlag.labels.bottom": "",
   
   "actions.HMGEmplacement.name": "HMG Emplacement",
   "actions.HMGEmplacement.labels.top": "",
@@ -380,6 +425,11 @@
   "actions.EMSMortarSentry.labels.top": "",
   "actions.EMSMortarSentry.labels.center": "",
   "actions.EMSMortarSentry.labels.bottom": "",
+
+  "actions.GasMortarSentry.name": "Gas Mortar Sentry",
+  "actions.GasMortarSentry.labels.top": "",
+  "actions.GasMortarSentry.labels.center": "",
+  "actions.GasMortarSentry.labels.bottom": "",
 
   "actions.FlameSentry.name": "Flame Sentry",
   "actions.FlameSentry.labels.top": "",
@@ -491,4 +541,3 @@
   "actions.Eagle500kgBomb.labels.center": "",
   "actions.Eagle500kgBomb.labels.bottom": ""
 }
-
