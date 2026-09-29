@@ -185,6 +185,11 @@
   "actions.LaserCannon.labels.top": "",
   "actions.LaserCannon.labels.center": "",
   "actions.LaserCannon.labels.bottom": "",
+
+  "actions.40-KMeltagun.name": "40-K Meltagun",
+  "actions.40-KMeltagun.labels.top": "",
+  "actions.40-KMeltagun.labels.center": "",
+  "actions.40-KMeltagun.labels.bottom": "",
   
   "actions.ArcThrower.name": "Arc Thrower",
   "actions.ArcThrower.labels.top": "",
@@ -216,6 +221,11 @@
   "actions.BastionMKXVI.labels.center": "",
   "actions.BastionMKXVI.labels.bottom": "",
 
+  "actions.TD-110Maelstrom.name": "TD-110 Maelstrom",
+  "actions.TD-110Maelstrom.labels.top": "",
+  "actions.TD-110Maelstrom.labels.center": "",
+  "actions.TD-110Maelstrom.labels.bottom": "",
+ 
   "actions.PatriotExosuit.name": "Patriot Exosuit",
   "actions.PatriotExosuit.labels.top": "",
   "actions.PatriotExosuit.labels.center": "",
@@ -525,6 +535,11 @@
   "actions.EagleNapalmAirstrike.labels.top": "",
   "actions.EagleNapalmAirstrike.labels.center": "",
   "actions.EagleNapalmAirstrike.labels.bottom": "",
+
+  "actions.EagleGasAirstrike.name": "Eagle Gas Airstrike",
+  "actions.EagleGasAirstrike.labels.top": "",
+  "actions.EagleGasAirstrike.labels.center": "",
+  "actions.EagleGasAirstrike.labels.bottom": "",
   
   "actions.EagleSmokeStrike.name": "Eagle Smoke Strike",
   "actions.EagleSmokeStrike.labels.top": "",

@@ -37,6 +37,7 @@
   "GL-52De-Escalator": ["DOWN", "RIGHT", "UP", "LEFT", "RIGHT"],
   "GrenadierBattlement": ["DOWN", "RIGHT", "DOWN", "LEFT", "RIGHT"],
   "LaserCannon": ["DOWN", "LEFT", "DOWN", "UP", "LEFT"],
+  "40-KMeltagun": ["DOWN", "LEFT", "UP", "LEFT", "LEFT", "DOWN"],
   "ArcThrower": ["DOWN", "RIGHT", "DOWN", "UP", "LEFT", "LEFT"],
   "QuasarCannon": ["DOWN", "DOWN", "UP", "LEFT", "RIGHT"],
   "Epoch": ["DOWN", "LEFT", "UP", "LEFT", "RIGHT"],
@@ -50,6 +51,7 @@
   "SupplyFRV": ["LEFT", "DOWN", "LEFT", "LEFT", "DOWN", "UP", "RIGHT"],
   "IncineratorFRV": ["LEFT", "DOWN", "RIGHT", "LEFT", "DOWN", "UP", "UP"],
   "BastionMKXVI": ["LEFT", "DOWN", "RIGHT", "DOWN", "LEFT", "DOWN", "UP", "DOWN", "UP"],
+  "TD-110Maelstrom": ["LEFT", "DOWN", "RIGHT", "DOWN", "LEFT", "DOWN", "UP", "LEFT", "RIGHT"],
   "Reinforce": ["UP", "DOWN", "RIGHT", "LEFT", "UP"],
   "SOSBeacon": ["UP", "DOWN", "RIGHT", "UP"],
   "Resupply": ["DOWN", "DOWN", "UP", "RIGHT"],
@@ -103,6 +105,7 @@
   "EagleAirstrike": ["UP", "RIGHT", "DOWN", "RIGHT"],
   "EagleClusterBomb": ["UP", "RIGHT", "DOWN", "DOWN", "RIGHT"],
   "EagleNapalmAirstrike": ["UP", "RIGHT", "DOWN", "UP"],
+  "EagleGasAirstrike": ["UP", "RIGHT", "LEFT", "RIGHT"],
   "EagleSmokeStrike": ["UP", "RIGHT", "UP", "DOWN"],
   "Eagle110MMRocketPods": ["UP", "RIGHT", "UP", "LEFT"],
   "Eagle500kgBomb": ["UP", "RIGHT", "DOWN", "DOWN", "DOWN"]
