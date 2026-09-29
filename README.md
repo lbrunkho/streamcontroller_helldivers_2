@@ -14,6 +14,16 @@ Assumes the following:
 
 See `AGENTS.md` for maintainer conventions and a validation checklist.
 
+### Tests
+
+From the repo root:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+A failure means a missing icon, a bad or duplicate direction code, a missing locale name, or a broken Ctrl/arrow sequence.
+
 ### Versioning
 
 Here is the planned versioning convention...

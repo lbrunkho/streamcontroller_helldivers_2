@@ -11,7 +11,7 @@ This is a **StreamController** plugin for **Helldivers 2** on Linux / Steam Deck
 - **Plugin id (manifest):** `loganb_helldivers_2`
 - **Action id prefix (runtime):** `loganb_helldivers_2::…` (aligned with manifest id). Renaming this again breaks saved StreamController pages — leave it stable.
 
-There is **no build system, package manager, linter, or test suite**. Maintenance is almost entirely **data updates** when Arrowhead ships warbonds / stratagems.
+There is **no build system, package manager, or linter**. Unit tests use the stdlib `unittest` runner (`python3 -m unittest discover -s tests -v`). Maintenance is almost entirely **data updates** when Arrowhead ships warbonds / stratagems.
 
 ### Runtime assumptions (from README)
 
@@ -37,6 +37,10 @@ streamcontroller_helldivers_2/
 ├── LICENSE                         # GPL-3.0
 ├── README.md                       # End-user notes (see Known debt)
 ├── AGENTS.md                       # This file — agent/maintainer conventions
+├── tests/
+│   ├── plugin_loader.py            # Import stubs for playback tests
+│   ├── test_catalog.py             # Stratagem data contract
+│   └── test_playback.py            # Ctrl/arrow injection and registration
 ├── locales/
 │   └── en_US.json                  # Display names; on-button labels empty
 ├── assets/
@@ -121,29 +125,13 @@ See [Versioning](#versioning).
 
 ### 6. Validate before finishing
 
-Run from the repo root:
+From the repo root:
 
 ```bash
-python3 - <<'PY'
-import json, os
-s = json.load(open("assets/data/stratagems.json"))
-loc = json.load(open("locales/en_US.json"))
-icons = set(os.listdir("assets/icons"))
-dirs = {"UP", "DOWN", "LEFT", "RIGHT"}
-missing_svg, missing_name, bad_seq = [], [], []
-for k, seq in s.items():
-    if f"{k}.svg" not in icons:
-        missing_svg.append(k)
-    if f"actions.{k}.name" not in loc:
-        missing_name.append(k)
-    if not all(x in dirs for x in seq):
-        bad_seq.append((k, seq))
-print("stratagems:", len(s))
-print("missing .svg:", missing_svg or "ok")
-print("missing locale name:", missing_name or "ok")
-print("bad sequences:", bad_seq or "ok")
-PY
+python3 -m unittest discover -s tests -v
 ```
+
+`tests/test_catalog.py` checks the stratagem contract: directions, unique codes, `{key}.svg` icons, locale names and labels, hero icons, and `manifest.json` id/version. `tests/test_playback.py` checks Ctrl and arrow injection, hero mode, the executing lock, and action registration. A failure means a missing icon, a bad or duplicate code, a missing locale entry, or a broken input sequence.
 
 ### 7. Commit
 
@@ -224,7 +212,7 @@ Action ids moved from `net_jslay_helldivers_2::*` to `loganb_helldivers_2::*`. E
 
 ## Out of scope
 
-- No required unit tests or CI.
+- No CI. Run the unit tests before finishing a stratagem change.
 - No packaging beyond the folder layout StreamController already loads.
 - Do not add on-button text labels by default (icons-only is intentional).
 - Do not rewrite icon set wholesale without a dedicated effort.
